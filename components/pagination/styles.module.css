@@ -1,0 +1,18 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  background-color: #fbf9f9;
+  padding: 1rem 0 1rem 0;
+  margin-top: 1rem;
+}
+
+.pagination li a {
+  padding: 1rem;
+  transition: ease-in-out 0.2s;
+}
+
+.pagination li a:hover {
+  color: blue;
+}

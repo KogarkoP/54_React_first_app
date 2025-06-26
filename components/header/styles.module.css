@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  background-color: #fbf9f9;
+}
+
+.header .logo {
+  width: 200px;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav li a {
+  font-size: 19px;
+  font-weight: 500;
+  color: #8e8a8a;
+  letter-spacing: 1;
+  transition: ease-in-out 0.2s;
+}
+
+.nav li a:hover {
+  color: black;
+}
+
+.social ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+}
+
+.social ul li {
+  font-size: 17px;
+  transition: ease-in-out 0.2s;
+}
+
+.social ul li:hover {
+  color: blue;
+}
+
+.social ul li:last-child {
+  font-size: 19px;
+}

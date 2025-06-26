@@ -1,0 +1,16 @@
+.page_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 1400px;
+  width: 100%;
+  min-width: 370px;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.page_wrapper h1 {
+  font-size: 21px;
+  font-weight: 500;
+}

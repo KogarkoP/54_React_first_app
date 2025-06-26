@@ -1,0 +1,26 @@
+.card_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border-bottom: solid 1px #dedddd;
+  padding-bottom: 2rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.text h2 {
+  font-size: 24px;
+  color: #8e8a8a;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+
+.text p {
+  line-height: 27px;
+  font-size: 17px;
+  color: #8e8a8a;
+}
