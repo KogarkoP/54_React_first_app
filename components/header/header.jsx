@@ -2,11 +2,19 @@ import styles from "./styles.module.css";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { useState } from "react";
 
 const Header = () => {
+  const [mainPageLinkText, setMainPageLinkText] = useState("HOME");
+
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>
+      <div
+        className={styles.logo}
+        onClick={() =>
+          setMainPageLinkText(mainPageLinkText === "HOME" ? "MAIN" : "HOME")
+        }
+      >
         <a href="#">
           <Image
             src="/images/Gino+Zisa+Classic+BW+(500x500T).png"
@@ -20,7 +28,7 @@ const Header = () => {
       <div>
         <ul className={styles.nav}>
           <li>
-            <a href="#">HOME</a>
+            <a href="#">{mainPageLinkText}</a>
           </li>
           <li>
             <a href="#">Portfolio</a>

@@ -4,6 +4,7 @@
   gap: 2rem;
   border-bottom: solid 1px #dedddd;
   padding-bottom: 2rem;
+  cursor: pointer;
 }
 
 .card_wrapper img {
