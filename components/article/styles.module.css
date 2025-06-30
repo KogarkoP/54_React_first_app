@@ -6,6 +6,12 @@
   padding-bottom: 2rem;
 }
 
+.card_wrapper img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
 .text {
   display: flex;
   flex-direction: column;
